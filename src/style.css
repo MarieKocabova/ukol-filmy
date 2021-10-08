@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
+  background-color: #e2e3e5;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .logo {
@@ -13,4 +14,8 @@ html {
   width: auto;
   height: 1em;
   margin-right: 0.3em;
+}
+
+h1 {
+  text-align: center;
 }
