@@ -1,7 +1,8 @@
 .movie-section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 30px;
+  grid-template-columns: repeat(auto-fit, 25rem);
+  justify-content: center;
+  margin: 30px 20px;
 }
 
 .movie-box {
@@ -15,7 +16,7 @@
 }
 
 .movie-box:hover {
-  background-color: rgb(240, 238, 238);
+  background-color: rgb(241, 240, 240);
   cursor: pointer;
 }
 
@@ -35,26 +36,12 @@
   box-shadow: 2px 2px 5px lightgrey;
 }
 
-p {
-  font-size: small;
-  line-height: 0.5rem;
+.info {
+  margin: 0 10px 20px 20px;
 }
 
-.cast-innersection {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 5px;
-}
-
-.cast-name {
-  font-size: 0.8rem;
-  font-weight: bolder;
-}
-
-.cast-as {
-  font-size: 0.7rem;
-  color: grey;
-  padding-bottom: 10px;
+.meta {
+  padding-bottom: 1px;
 }
 
 h2 {
@@ -68,14 +55,28 @@ h3 {
   color: red;
 }
 
-.info {
-  margin: 0 10px 20px 20px;
+p {
+  font-size: small;
+  line-height: 0.5rem;
+}
+
+.cast-name {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.cast-as {
+  font-size: 0.7rem;
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.cast-innersection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5px;
 }
 
 .cast {
   padding: 0 10px 0 0;
-}
-
-.meta {
-  padding-bottom: 1px;
 }

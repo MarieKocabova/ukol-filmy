@@ -23,7 +23,7 @@ const Movie = () => {
               <b>Režie:</b> <span>Quentin Tarantino</span>
             </p>
           </div>
-          <h3 className="cast-title">V hlavních rolích:</h3>
+          <h3>V hlavních rolích:</h3>
           <div className="cast-innersection">
             <div className="cast">
               <div className="cast-name">
