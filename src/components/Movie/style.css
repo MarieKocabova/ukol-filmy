@@ -60,23 +60,23 @@ p {
   line-height: 0.5rem;
 }
 
-.cast-name {
+.actor-name {
   font-size: 0.8rem;
   font-weight: bold;
 }
 
-.cast-as {
+.actor-as {
   font-size: 0.7rem;
   color: grey;
   padding-bottom: 10px;
 }
 
-.cast-innersection {
+.actors-innersection {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 5px;
 }
 
-.cast {
+.actor {
   padding: 0 10px 0 0;
 }
