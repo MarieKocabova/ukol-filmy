@@ -26,9 +26,9 @@ const Movie = ({ rating, poster, title, year, genre, director, cast }) => {
           </div>
           <h3>V hlavních rolích:</h3>
           <div className="actors-innersection">
-            {/* {cast.map((actor) => (
+            {cast.map((actor) => (
               <Actor name={actor.name} as={actor.as} key={actor.name} />
-            ))} */}
+            ))}
           </div>
         </div>
       </div>
