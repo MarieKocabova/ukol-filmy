@@ -1,8 +1,9 @@
 import React from "react";
 import "./style.css";
-import Actor from "../actor";
+import Actor from "../Actor";
 
 const Movie = ({ rating, poster, title, year, genre, director, cast }) => {
+  console.log(cast);
   return (
     <>
       <div className="movie-box">
