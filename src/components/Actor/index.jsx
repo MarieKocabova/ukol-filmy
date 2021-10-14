@@ -1,16 +1,14 @@
 import React from "react";
 
-import movies from "../../movies";
-
-const Actor = () => {
+const Actor = ({ name, as }) => {
   return (
     <>
       <div className="actor">
         <div className="actor-name">
-          <b>name z Actor</b>
+          <b>{name}</b>
         </div>
         <div className="actor-as">
-          as <b>as z Actor</b>
+          as <b>{as}</b>
         </div>
       </div>
     </>

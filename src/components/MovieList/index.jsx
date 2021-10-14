@@ -1,14 +1,16 @@
 import React from "react";
-import movies from "../../movies";
+import "./style.css";
 
 import Movie from "../Movie";
 
-const MovieList = () => (
-  <>
-    {movies.map((movie) => {
-      return <Movie title={movie.title} year={movie.year} poster={`../assets/${movie.poster}`} director={movie.director} genre={movie.genre} rating={movie.rating} key={movie.id} />;
-    })}
-  </>
-);
+const MovieList = ({ movies }) => {
+  return (
+    <div className="movie-container">
+      {movies.map((movie) => {
+        return <Movie title={movie.title} year={movie.year} poster={movie.poster} director={movie.director} genre={movie.genre} rating={movie.rating} key={movie.id} />;
+      })}
+    </div>
+  );
+};
 
 export default MovieList;

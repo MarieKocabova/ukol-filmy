@@ -1,0 +1,6 @@
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 27rem);
+  justify-content: center;
+  margin: 30px 10px;
+}
